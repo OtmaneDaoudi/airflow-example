@@ -1,5 +1,5 @@
 # Overview
-This demo aims to showcase the general workflow of creating DAGs in Apache airflow by making a simple ETL data pipeline that extracts a CSV file containing user data, hashs the passwords, and loads the result in an SQLite database.
+This demo aims to showcase the general workflow of creating DAGs in Apache airflow by making a simple ETL data pipeline that extracts a CSV file containing user data, hashes the passwords, and loads the result into an SQLite database.
 
 # Getting Started
 1. Create a new Google Cloud project.
@@ -21,6 +21,9 @@ This demo aims to showcase the general workflow of creating DAGs in Apache airfl
 > The Webserer takes about 5 minutes to get up and running.
 
 10. Execute the DAG
-11. You should see the extracted and transformed CSVs in the dags folder: `ls ./dags`
-12. To ensure the data is loaded into SQLite correctly: `python validate.py`
+
+![image](https://github.com/user-attachments/assets/d9fbe520-3e4b-4682-9715-a08f544379be)
+
+12. You should see the extracted and transformed CSVs in the dags folder: `ls ./dags`
+13. To ensure the data is loaded into SQLite correctly: `python validate.py`
 
